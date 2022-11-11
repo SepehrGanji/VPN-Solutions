@@ -12,7 +12,7 @@
       "settings": {
         "clients": [
           {
-            "id": "***UUID***",
+            "id": "<UUID>",
             "alterId": 0,
             "security": "none"
           }

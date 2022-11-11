@@ -14,7 +14,7 @@
       "settings": {
         "clients": [
           {
-            "id": "***UUID***",
+            "id": "<UUID>",
             "level": 1,
             "alterId": 0,
             "email": "client@ganji.dev"
@@ -58,12 +58,5 @@
       "protocol": "freedom",
       "settings": {}
     }
-  ],
-  "dns": {
-    "servers": [
-      "8.8.8.8",
-      "8.8.4.4",
-      "localhost"
-    ]
-  }
+  ]
 } 

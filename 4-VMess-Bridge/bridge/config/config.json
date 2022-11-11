@@ -10,8 +10,8 @@
       "port": 1210,
       "protocol": "shadowsocks",
       "settings": {
-        "password": "***Password***",
-        "method": "aes-128-gcm",
+        "password": "<YOUR_PASSWORD>",
+        "method": "chacha20-ietf-poly1305",
         "level": 0,
         "network": "tcp,udp"
       }
@@ -23,9 +23,9 @@
       "settings": {
         "clients": [
           {
-            "id": "***UUID***",
+            "id": "<UUID>",
             "alterId": 0,
-            "security": "aes-128-gcm"
+            "security": "auto"
           }
         ]
       }
@@ -38,11 +38,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "***UpAddress***",
-            "port": 1310,
+            "address": "<UP_ADDRESS>",
+            "port": 1313,
             "users": [
               {
-                "id": "***UpUUID***",
+                "id": "<UP_UUID>",
                 "alterId": 0,
                 "security": "none"
               }

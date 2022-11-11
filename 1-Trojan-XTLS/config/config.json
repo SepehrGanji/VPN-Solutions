@@ -11,7 +11,7 @@
           "settings": {
               "clients": [
                   {
-                      "password":"Your-Password",
+                      "password":"<YOUR_PASSWORD>",
                       "flow": "xtls-rprx-direct"
                   }
               ],
@@ -50,12 +50,5 @@
       {
           "protocol": "freedom"
       }
-  ],
-  "dns": {
-    "servers": [
-      "8.8.8.8",
-      "8.8.4.4",
-      "localhost"
-    ]
-  }
+  ]
 }

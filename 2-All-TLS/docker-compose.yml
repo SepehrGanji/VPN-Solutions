@@ -2,7 +2,7 @@ version: '3.8'
 services:
   xray:
     image: teddysun/xray:latest
-    container_name: alieza
+    container_name: alireza
     restart: always
     network_mode: host
     volumes:

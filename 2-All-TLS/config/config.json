@@ -11,7 +11,7 @@
           "settings": {
               "clients": [
                   {
-                      "id": "***UUID***",
+                      "id": "<UUID>",
                       "flow": "xtls-rprx-direct",
                       "level": 0,
                       "email": "vless@ganji.dev"
@@ -63,7 +63,7 @@
           "settings": {
               "clients": [
                   {
-                      "password": "***Password***",
+                      "password": "<YOUR_PASSWORD>",
                       "level": 0,
                       "email": "trojan@ganji.dev"
                   }
@@ -89,7 +89,7 @@
           "settings": {
               "clients": [
                   {
-                      "id": "***UUID***",
+                      "id": "<UUID>",
                       "level": 0,
                       "email": "ws@ganji.dev"
                   }
@@ -112,7 +112,7 @@
           "settings": {
               "clients": [
                   {
-                      "id": "***UUID***",
+                      "id": "<UUID>",
                       "level": 0,
                       "email": "vmess@ganji.dev"
                   }
@@ -141,7 +141,7 @@
           "settings": {
               "clients": [
                   {
-                      "id": "***UUID***",
+                      "id": "<UUID>",
                       "level": 0,
                       "email": "vmessws@ganji.dev"
                   }
@@ -161,12 +161,5 @@
       {
           "protocol": "freedom"
       }
-  ],
-  "dns": {
-    "servers": [
-      "8.8.8.8",
-      "8.8.4.4",
-      "localhost"
-    ]
-  }
+  ]
 }
