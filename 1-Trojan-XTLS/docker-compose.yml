@@ -18,6 +18,6 @@ services:
     volumes:
       - ./config/:/etc/xray/:ro
       - ./logs/:/var/log/xray/
-      - ./shm:/dev/shm/:ro
+      - ./shm/:/dev/shm/:ro
       - /path/to/cert:/ssl/cert.pem
       - /path/to/key:/ssl/key.pem
