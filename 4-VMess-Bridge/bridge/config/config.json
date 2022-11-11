@@ -39,7 +39,7 @@
         "vnext": [
           {
             "address": "***UpAddress***",
-            "port": 1310,
+            "port": 1313,
             "users": [
               {
                 "id": "***UpUUID***",
