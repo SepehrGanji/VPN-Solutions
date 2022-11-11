@@ -2,7 +2,7 @@ version: '3.8'
 services:
   xray:
     image: teddysun/xray:latest
-    container_name: xray
+    container_name: homayoun
     restart: always
     ports:
       - 80:80
