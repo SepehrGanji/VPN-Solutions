@@ -2,12 +2,10 @@ version: '3.8'
 services:
   xray:
     image: teddysun/xray:latest
-    container_name: xray
+    container_name: moein_up
     restart: always
     ports:
-      - 443:443
+      - 1313:1310
     volumes:
       - ./config/:/etc/xray/:ro
       - ./logs/:/var/log/xray/
-      - /path/to/cert:/ssl/cert.pem
-      - /path/to/key:/ssl/key.pem
