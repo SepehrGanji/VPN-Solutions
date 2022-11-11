@@ -14,7 +14,7 @@ services:
     container_name: roozbeh
     restart: always
     ports:
-      - 443:443
+      - 8443:443
     volumes:
       - ./config/:/etc/xray/:ro
       - ./logs/:/var/log/xray/
