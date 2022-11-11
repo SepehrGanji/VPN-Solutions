@@ -4,8 +4,7 @@ services:
     image: teddysun/xray:latest
     container_name: alieza
     restart: always
-    ports:
-      - 443:443
+    network_mode: host
     volumes:
       - ./config/:/etc/xray/:ro
       - ./logs/:/var/log/xray/
