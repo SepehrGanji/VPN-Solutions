@@ -5,9 +5,7 @@ services:
     container_name: xray
     restart: always
     ports:
-      - 443:443
+      - 80:80
     volumes:
       - ./config/:/etc/xray/:ro
       - ./logs/:/var/log/xray/
-      - /path/to/cert:/ssl/cert.pem
-      - /path/to/key:/ssl/key.pem
